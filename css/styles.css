@@ -12,6 +12,11 @@ body {
     color: #fff;
 }
 
+.inverted{
+    background-image:url("../images/anastase-maragos-9dzWZQWZMdE-unsplash\ 2.png");
+    background-size: cover;
+}
+
 header {
     padding: 20px;
     position: fixed;
@@ -67,7 +72,7 @@ header {
 .hero-content {
     background-color: rgb(50, 50, 50, 0.25);
     padding: 150px 100px;
-    width: 700px;
+    width: 800px;
     margin-top: 70px;
     margin-left: 18px;
 }
@@ -81,7 +86,7 @@ header {
 .hero-content p {
     font-size: 18px;
     margin-bottom: 20px;
-    max-width: 400px;
+    max-width: 1000px;
 }
 
 .btn {
@@ -110,4 +115,18 @@ header {
     border-bottom: 8px solid rgb(255, 255, 255);
     transition: all 0.3s ;
     padding-bottom: 18px;
+}
+
+.hero-content .bigger {
+    font-size: 30px;
+}
+
+.hero-content .tiny {
+    font-size: 50px;
+}
+.choose {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 60px;
 }
