@@ -10,11 +10,13 @@ body {
     background-size: cover;
     height: 100vh;
     color: #fff;
+    background-repeat: no-repeat;
 }
 
 .inverted{
     background-image:url("../images/anastase-maragos-9dzWZQWZMdE-unsplash\ 2.png");
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 header {
@@ -70,7 +72,7 @@ header {
 }
 
 .hero-content {
-    background-color: rgb(50, 50, 50, 0.25);
+    background-color: rgb(50, 50, 50, 0.35);
     padding: 150px 100px;
     width: 800px;
     margin-top: 70px;
@@ -130,3 +132,62 @@ header {
     text-align: center;
     font-size: 60px;
 }
+.separate {
+    padding: 100px;
+    display: inline-block;
+    font-size: 40px;
+    width:600px;
+    height: 800px;
+    color: white;
+}
+.middle_line {
+    background-color: white;
+    width: 5px;
+    height: 85vh;
+    margin: -9px;
+    position: absolute;
+}
+.separate p {
+    color:rgb(255, 255, 255, 0.50) ;
+    font-weight: bolder;
+}
+.separate img,.separate h1 {
+    margin: 25px;
+}
+.separate:hover{
+    background-color: rgb(255, 255, 255, 0.25);
+    color: white;
+    transition: 0.5s;
+}
+.separate p:hover {
+    color: white;
+}
+.loss {
+    width: 1500px;
+    height: 90vh;
+    padding: 125px 50px;
+}
+.build {
+    width: 1500px;
+    height: 90vh;
+    padding: 125px 50px;
+}
+/* 
+.choose .options {
+    word-spacing: 22px;
+    margin: 200px; 
+    font-size: 35px;
+}
+
+.choose .emblems {
+   margin: 10px;
+}
+
+.choice1 {
+    font-size: 20px;
+    padding-left: 100px;
+}
+
+.choice2 {
+    font-size: 20px;
+} */
